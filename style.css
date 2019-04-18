@@ -1,0 +1,49 @@
+.container {
+    width: 512px;
+    margin: auto;
+    margin-top: 20px;
+    /* background: blue; */
+    /* border: 1px solid blue; */
+    padding: 4px;
+}
+
+.row {
+    width: 98%;
+    height: 85px;
+    /* background: red; */
+    /* border: 1px solid red; */
+    margin: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col {
+    /* background: green; */
+    /* border: 1px solid green; */
+    height: 100%;
+    padding: 4px;
+}
+
+.col.w-25 {
+    width: 25%;
+}
+
+.col.w-75 {
+    width: 75%;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.row input[type="text"] {
+    border: 1px solid #007bff;
+    width: 100%;
+    height: 100%;
+    /* background: black; */
+    font-size: 30px;
+    padding: 0px 14px;
+}
