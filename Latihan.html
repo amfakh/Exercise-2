@@ -18,66 +18,90 @@
             </div>
         </div>
         <div class="row">
-            <div class="col width-75">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value = ''">AC</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
+                    <button class="btn operator" onclick="document.getElementById('oprt').value += '('">(</button>
+            </div>
+            <div class="col width-20">
+                    <button class="btn operator" onclick="document.getElementById('oprt').value += ')'">)</button>
+            </div>                            
+            <div class="col width-20">
                 <button class="btn operand"
                     onclick="document.getElementById('oprt').value = eval(document.getElementById('oprt').value)">=</button>
             </div>
+            <div class="col width-20">
+                <button class="btn operand" onclick="document.getElementById('oprt').value += '**2'">x<sup>y</sup> </button>
+            </div>  
         </div>
         <div class="row">
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 7">7</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 8">8</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 9">9</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operand" onclick="document.getElementById('oprt').value += '/'">/</button>
-            </div>
+            </div>              
+            <div class="col width-20">
+                <button class="btn operand" onclick="document.getElementById('oprt').value = 'Math.sqrt('">√</button>
+            </div>             
         </div>
         <div class="row">
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 4">4</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 5">5</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 6">6</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operand" onclick="document.getElementById('oprt').value += '*'">*</button>
             </div>
+            <div class="col width-20">
+                <button class="btn operand" onclick="document.getElementById('oprt').value = 'Math.tan('">tan</button>
+            </div>            
         </div>
         <div class="row">
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 1">1</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 2">2</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 3">3</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operand" onclick="document.getElementById('oprt').value += '-'">-</button>
             </div>
+            <div class="col width-20">
+                <button class="btn operand" onclick="document.getElementById('oprt').value = 'Math.cos('">cos</button>
+            </div>            
         </div>
         <div class="row">
-            <div class="col width-50">
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += 0">0</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
+                    <button class="btn operator" onclick="document.getElementById('oprt').value += '00'">00</button>
+                </div>            
+            <div class="col width-20">
                 <button class="btn operator" onclick="document.getElementById('oprt').value += .">.</button>
             </div>
-            <div class="col width-25">
+            <div class="col width-20">
                 <button class="btn operand" onclick="document.getElementById('oprt').value += '+'">+</button>
             </div>
+            <div class="col width-20">
+                <button class="btn operand" onclick="document.getElementById('oprt').value = 'Math.sin('">sin</button>
+            </div>            
         </div>
     </div>
 </body>
